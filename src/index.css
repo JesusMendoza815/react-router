@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cambay&family=Poppins:wght@400;700&family=Taviraj:wght@300&display=swap');
 
+*::-webkit-scrollbar {
+  display: none;
+}
 h1 {
   font-family: 'Cambay', sans-serif;
   font-size: 1.8rem;
@@ -27,7 +30,7 @@ p {
 }
 
 hr {
-  width: 90vw;
+  width: 80vw;
 }
 body {
   color: rgba(255, 255, 255, 0.87);
