@@ -1,0 +1,37 @@
+.card-details {
+  @keyframes show {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  margin-top: 5rem;
+  animation: show 0.25s linear 1;
+  img {
+    border-radius: 1rem;
+  }
+  .name {
+    font-size: 2rem;
+    margin: 0;
+  }
+  span {
+    margin: 0.5rem 0 !important;
+    p,
+    h3 {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card-details {
+    display: flex;
+    justify-content: center;
+    .card-info {
+      margin-left: 2rem;
+    }
+  }
+}

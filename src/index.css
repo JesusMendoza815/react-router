@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambay&family=Poppins:wght@400;700&family=Taviraj:wght@300&display=swap');
+
+h1 {
+  font-family: 'Cambay', sans-serif;
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.name {
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Taviraj', serif;
+}
+
+.c-green {
+  color: #67b740;
+}
+
+.c-subtitle {
+  font-size: 0.9rem;
+  color: #95a4b3;
+}
+
+body {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000842;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+}
