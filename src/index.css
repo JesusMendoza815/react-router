@@ -26,6 +26,9 @@ p {
   color: #95a4b3;
 }
 
+hr {
+  width: 90vw;
+}
 body {
   color: rgba(255, 255, 255, 0.87);
   background-color: #000842;
