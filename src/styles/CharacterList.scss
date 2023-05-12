@@ -18,6 +18,7 @@
     margin: 1rem;
     animation: cardShow 0.25s linear 1;
     transition: all 0.2s linear;
+
     &:hover {
       box-shadow: 0 0 15px 5px rgba(103, 183, 64, 0.8);
       border-color: transparent;
@@ -27,7 +28,10 @@
       color: white;
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
       img {
+        border: 2px solid #546773;
         width: 100%;
         margin-bottom: 1rem;
         border-radius: 1rem;
@@ -43,7 +47,6 @@
       h3 {
         font-size: 1.2rem;
         text-overflow: ellipsis;
-        width: 100%;
       }
     }
   }
@@ -51,8 +54,10 @@
 
 @media screen and (min-width: 768px) {
   #characters-container {
+    width: 85vw;
+    margin: auto;
     div.card {
-      width: 15rem;
+      width: 13rem;
       .card-body {
         text-decoration: none;
         color: white;
